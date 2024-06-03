@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <form>Leave your contacts and we will call you back
+        <label class="form-label" name="username">
+            Name
+            <input class="form-input" type="text" name="username" autofocus/>
+        </label>
+        <label class="form-label" name="'phone">
+            Phone
+            <input type="tel" name="phone" />
+        </label>
+        <label class="form-label" name="email">
+            Email
+            <input type="email" name="email" />
+        </label>
+        <label>
+            Comment
+            <textarea name="feedback" rows="5" placeholder="Enter your message here..."></textarea>
+        </label>
+        <input type="checkbox" name="answer" value="earth" id="earth" />
+        <label for="earth">I accept the terms and conditions of the <a>Privacy Policy</a></label>
+
+        <button type="submit">Send</button>
+    </form>
+</body>
+</html>
